@@ -1,6 +1,6 @@
 'use client';
 
-import { Cartesian3, createOsmBuildingsAsync, Ion, Math as CesiumMath, Terrain, Viewer, Color, Material, EntityCollection, Rectangle, Cartesian2, Math, VerticalOrigin, LabelStyle, StripeMaterialProperty } from 'cesium';
+import { Cartesian3, createOsmBuildingsAsync, Ion, Math as CesiumMath, Terrain, Viewer, Color, Material, Rectangle, Cartesian2, Math, VerticalOrigin, LabelStyle } from 'cesium';
 import "cesium/Build/Cesium/Widgets/widgets.css";
 import { useEffect, useState } from "react";
 import "tailwindcss";
@@ -17,7 +17,6 @@ export default function Home() {
 
   let viewer: Viewer;
   let drawer: Drawer;
-  let polygonId = 0;
   
 
   useEffect(() => {
