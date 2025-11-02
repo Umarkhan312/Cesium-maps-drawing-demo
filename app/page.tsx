@@ -23,11 +23,10 @@ export default function Home() {
   useEffect(() => {
 
     Math.setRandomNumberSeed(1);
-    // The URL on your server where CesiumJS's static files are hosted.
+    
     window.CESIUM_BASE_URL = '/cesium/';
 
-    // Ion.defaultAccessToken = 'Access_Token'; // Replace with your Cesium Ion access token if needed.
-    // Initialize the Cesium Viewer in the HTML element with the `cesiumContainer` ID.
+    // Ion.defaultAccessToken = 'Access_Token'; 
 
 
     viewer = new Viewer('cesiumContainer');
