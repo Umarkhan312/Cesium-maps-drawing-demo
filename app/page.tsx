@@ -5,7 +5,6 @@ import "cesium/Build/Cesium/Widgets/widgets.css";
 import { useEffect, useState } from "react";
 import "tailwindcss";
 import Drawer from '@cesium-extends/drawer';
-import { log } from 'console';
 
 declare global {
   interface Window {
